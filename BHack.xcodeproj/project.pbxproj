@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D22C57D814E9899600FB429F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22C57D714E9899600FB429F /* Cocoa.framework */; };
+		D22C57E214E9899600FB429F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D22C57E014E9899600FB429F /* InfoPlist.strings */; };
+		D22C57E414E9899600FB429F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D22C57E314E9899600FB429F /* main.m */; };
+		D22C57E814E9899600FB429F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D22C57E614E9899600FB429F /* Credits.rtf */; };
+		D22C57EB14E9899600FB429F /* MeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D22C57EA14E9899600FB429F /* MeAppDelegate.m */; };
+		D22C57EE14E9899600FB429F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D22C57EC14E9899600FB429F /* MainMenu.xib */; };
+		D22C57F114E9899600FB429F /* BHack.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D22C57EF14E9899600FB429F /* BHack.xcdatamodeld */; };
+		D22C57F914E9899600FB429F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22C57F814E9899600FB429F /* SenTestingKit.framework */; };
+		D22C57FA14E9899600FB429F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22C57D714E9899600FB429F /* Cocoa.framework */; };
+		D22C580214E9899600FB429F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D22C580014E9899600FB429F /* InfoPlist.strings */; };
+		D22C580514E9899600FB429F /* BHackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D22C580414E9899600FB429F /* BHackTests.m */; };
+		D22C580F14E98EF900FB429F /* ThinkGear.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = D22C580E14E98EF900FB429F /* ThinkGear.bundle */; };
+		D24F838D14ED8B570048C6C3 /* axebrain.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D24F838C14ED8B570048C6C3 /* axebrain.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		D22C581014E98F1400FB429F /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+			);
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXContainerItemProxy section */
+		D22C57FB14E9899600FB429F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D22C57CA14E9899600FB429F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D22C57D214E9899600FB429F;
+			remoteInfo = BHack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D22C57D314E9899600FB429F /* BHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D22C57D714E9899600FB429F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D22C57DA14E9899600FB429F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D22C57DB14E9899600FB429F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D22C57DC14E9899600FB429F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D22C57DF14E9899600FB429F /* BHack-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BHack-Info.plist"; sourceTree = "<group>"; };
+		D22C57E114E9899600FB429F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D22C57E314E9899600FB429F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D22C57E514E9899600FB429F /* BHack-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BHack-Prefix.pch"; sourceTree = "<group>"; };
+		D22C57E714E9899600FB429F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D22C57E914E9899600FB429F /* MeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeAppDelegate.h; sourceTree = "<group>"; };
+		D22C57EA14E9899600FB429F /* MeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeAppDelegate.m; sourceTree = "<group>"; };
+		D22C57ED14E9899600FB429F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D22C57F014E9899600FB429F /* BHack.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BHack.xcdatamodel; sourceTree = "<group>"; };
+		D22C57F714E9899600FB429F /* BHackTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BHackTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D22C57F814E9899600FB429F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D22C57FF14E9899600FB429F /* BHackTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BHackTests-Info.plist"; sourceTree = "<group>"; };
+		D22C580114E9899600FB429F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D22C580314E9899600FB429F /* BHackTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHackTests.h; sourceTree = "<group>"; };
+		D22C580414E9899600FB429F /* BHackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BHackTests.m; sourceTree = "<group>"; };
+		D22C580E14E98EF900FB429F /* ThinkGear.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ThinkGear.bundle; sourceTree = "<group>"; };
+		D24F838C14ED8B570048C6C3 /* axebrain.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = axebrain.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D22C57D014E9899600FB429F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22C580F14E98EF900FB429F /* ThinkGear.bundle in Frameworks */,
+				D22C57D814E9899600FB429F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D22C57F314E9899600FB429F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22C57F914E9899600FB429F /* SenTestingKit.framework in Frameworks */,
+				D22C57FA14E9899600FB429F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D22C57C814E9899600FB429F = {
+			isa = PBXGroup;
+			children = (
+				D24F838C14ED8B570048C6C3 /* axebrain.jpeg */,
+				D22C580E14E98EF900FB429F /* ThinkGear.bundle */,
+				D22C57DD14E9899600FB429F /* BHack */,
+				D22C57FD14E9899600FB429F /* BHackTests */,
+				D22C57D614E9899600FB429F /* Frameworks */,
+				D22C57D414E9899600FB429F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D22C57D414E9899600FB429F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D22C57D314E9899600FB429F /* BHack.app */,
+				D22C57F714E9899600FB429F /* BHackTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D22C57D614E9899600FB429F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D22C57D714E9899600FB429F /* Cocoa.framework */,
+				D22C57F814E9899600FB429F /* SenTestingKit.framework */,
+				D22C57D914E9899600FB429F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D22C57D914E9899600FB429F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D22C57DA14E9899600FB429F /* AppKit.framework */,
+				D22C57DB14E9899600FB429F /* CoreData.framework */,
+				D22C57DC14E9899600FB429F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D22C57DD14E9899600FB429F /* BHack */ = {
+			isa = PBXGroup;
+			children = (
+				D22C57E914E9899600FB429F /* MeAppDelegate.h */,
+				D22C57EA14E9899600FB429F /* MeAppDelegate.m */,
+				D22C57EC14E9899600FB429F /* MainMenu.xib */,
+				D22C57EF14E9899600FB429F /* BHack.xcdatamodeld */,
+				D22C57DE14E9899600FB429F /* Supporting Files */,
+			);
+			path = BHack;
+			sourceTree = "<group>";
+		};
+		D22C57DE14E9899600FB429F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D22C57DF14E9899600FB429F /* BHack-Info.plist */,
+				D22C57E014E9899600FB429F /* InfoPlist.strings */,
+				D22C57E314E9899600FB429F /* main.m */,
+				D22C57E514E9899600FB429F /* BHack-Prefix.pch */,
+				D22C57E614E9899600FB429F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D22C57FD14E9899600FB429F /* BHackTests */ = {
+			isa = PBXGroup;
+			children = (
+				D22C580314E9899600FB429F /* BHackTests.h */,
+				D22C580414E9899600FB429F /* BHackTests.m */,
+				D22C57FE14E9899600FB429F /* Supporting Files */,
+			);
+			path = BHackTests;
+			sourceTree = "<group>";
+		};
+		D22C57FE14E9899600FB429F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D22C57FF14E9899600FB429F /* BHackTests-Info.plist */,
+				D22C580014E9899600FB429F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D22C57D214E9899600FB429F /* BHack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D22C580814E9899600FB429F /* Build configuration list for PBXNativeTarget "BHack" */;
+			buildPhases = (
+				D22C57CF14E9899600FB429F /* Sources */,
+				D22C57D014E9899600FB429F /* Frameworks */,
+				D22C57D114E9899600FB429F /* Resources */,
+			);
+			buildRules = (
+				D22C581014E98F1400FB429F /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = BHack;
+			productName = BHack;
+			productReference = D22C57D314E9899600FB429F /* BHack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D22C57F614E9899600FB429F /* BHackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D22C580B14E9899600FB429F /* Build configuration list for PBXNativeTarget "BHackTests" */;
+			buildPhases = (
+				D22C57F214E9899600FB429F /* Sources */,
+				D22C57F314E9899600FB429F /* Frameworks */,
+				D22C57F414E9899600FB429F /* Resources */,
+				D22C57F514E9899600FB429F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D22C57FC14E9899600FB429F /* PBXTargetDependency */,
+			);
+			name = BHackTests;
+			productName = BHackTests;
+			productReference = D22C57F714E9899600FB429F /* BHackTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D22C57CA14E9899600FB429F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = MogoTix;
+			};
+			buildConfigurationList = D22C57CD14E9899600FB429F /* Build configuration list for PBXProject "BHack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D22C57C814E9899600FB429F;
+			productRefGroup = D22C57D414E9899600FB429F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D22C57D214E9899600FB429F /* BHack */,
+				D22C57F614E9899600FB429F /* BHackTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D22C57D114E9899600FB429F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22C57E214E9899600FB429F /* InfoPlist.strings in Resources */,
+				D22C57E814E9899600FB429F /* Credits.rtf in Resources */,
+				D22C57EE14E9899600FB429F /* MainMenu.xib in Resources */,
+				D24F838D14ED8B570048C6C3 /* axebrain.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D22C57F414E9899600FB429F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22C580214E9899600FB429F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D22C57F514E9899600FB429F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D22C57CF14E9899600FB429F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22C57E414E9899600FB429F /* main.m in Sources */,
+				D22C57EB14E9899600FB429F /* MeAppDelegate.m in Sources */,
+				D22C57F114E9899600FB429F /* BHack.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D22C57F214E9899600FB429F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22C580514E9899600FB429F /* BHackTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D22C57FC14E9899600FB429F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D22C57D214E9899600FB429F /* BHack */;
+			targetProxy = D22C57FB14E9899600FB429F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D22C57E014E9899600FB429F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D22C57E114E9899600FB429F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D22C57E614E9899600FB429F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D22C57E714E9899600FB429F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D22C57EC14E9899600FB429F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D22C57ED14E9899600FB429F /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		D22C580014E9899600FB429F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D22C580114E9899600FB429F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D22C580614E9899600FB429F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D22C580714E9899600FB429F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D22C580914E9899600FB429F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BHack/BHack-Prefix.pch";
+				INFOPLIST_FILE = "BHack/BHack-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D22C580A14E9899600FB429F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BHack/BHack-Prefix.pch";
+				INFOPLIST_FILE = "BHack/BHack-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D22C580C14E9899600FB429F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BHack.app/Contents/MacOS/BHack";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BHack/BHack-Prefix.pch";
+				INFOPLIST_FILE = "BHackTests/BHackTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D22C580D14E9899600FB429F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BHack.app/Contents/MacOS/BHack";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BHack/BHack-Prefix.pch";
+				INFOPLIST_FILE = "BHackTests/BHackTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D22C57CD14E9899600FB429F /* Build configuration list for PBXProject "BHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D22C580614E9899600FB429F /* Debug */,
+				D22C580714E9899600FB429F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D22C580814E9899600FB429F /* Build configuration list for PBXNativeTarget "BHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D22C580914E9899600FB429F /* Debug */,
+				D22C580A14E9899600FB429F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D22C580B14E9899600FB429F /* Build configuration list for PBXNativeTarget "BHackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D22C580C14E9899600FB429F /* Debug */,
+				D22C580D14E9899600FB429F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D22C57EF14E9899600FB429F /* BHack.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D22C57F014E9899600FB429F /* BHack.xcdatamodel */,
+			);
+			currentVersion = D22C57F014E9899600FB429F /* BHack.xcdatamodel */;
+			path = BHack.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D22C57CA14E9899600FB429F /* Project object */;
+}
